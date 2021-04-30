@@ -4,7 +4,10 @@
   "description": "A react widget",
   "author": "Automedon",
   "license": "MIT",
-  "repository": "Automedon/widget-exp",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/Automedon/widget-exp.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
