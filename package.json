@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/Automedon/widget-exp.git"
+    "url": "https://github.com/Automedon/widget-exp.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
@@ -27,7 +27,9 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-fade-in": "^0.1.6",
+    "simple-react-modal": "^0.5.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -48,7 +50,9 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "react-fade-in": "^0.1.6",
+    "react-scripts": "^3.4.1",
+    "simple-react-modal": "^0.5.1"
   },
   "files": [
     "dist"
